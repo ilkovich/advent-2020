@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { ppid } = require("process");
 let data = String(fs.readFileSync("./data.txt")).trim();
 
 // data = `
