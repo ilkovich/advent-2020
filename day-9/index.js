@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { exit } = require("process");
 let data = String(fs.readFileSync("./data.txt")).trim();
 
 // data = `
