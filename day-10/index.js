@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { Z_NEED_DICT } = require("zlib");
 let data = String(fs.readFileSync("./data.txt")).trim().split("\n");
 
 class Graph {
